@@ -1,0 +1,8 @@
+this:
+  port: "8085"
+  ca_pem_path: "ca.pem"
+  client_pem_path: "client.pem"
+  client_key_path: "client.key"
+my_request:
+  url: "https://localhost:"
+  port: "8088"
