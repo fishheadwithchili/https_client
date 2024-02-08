@@ -1,8 +1,6 @@
 package main
 
-import (
-	"https_client/component"
-)
+import "https_client/component"
 
 func main() {
 	component.LoadConfig("config.yml")

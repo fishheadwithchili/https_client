@@ -10,6 +10,12 @@ var Config ConfigT
 type ConfigT struct {
 	This      this      `mapstructure:"this"`
 	MyRequest myRequest `mapstructure:"my_request"`
+	RsaConfig rsaConfig `mapstructure:"rsa_config"`
+}
+
+type rsaConfig struct {
+	PrivateKey string `mapstructure:"private_key"`
+	PublicKey  string `mapstructure:"public_key"`
 }
 
 type myRequest struct {
